@@ -6,4 +6,5 @@ Initiatives - tom\
 Skeleton – header/footer - Josh\
 Stats & Facts – educational aimed at school kids and sceptics = Paulis\
 What You Can Do - tom\
-Colour Scheme :     
+Colour Scheme : https://colorhunt.co/palette/164809
+*NB* There is also a green being 
