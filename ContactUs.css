@@ -1,0 +1,26 @@
+body {
+	background-color: bisque;
+}
+
+button {background-color: #4CAF55;}
+
+		#Facebook {
+		position: absolute;
+		left:3%;
+		top:32%;
+		}
+		
+		#Twitter {
+		position: absolute;
+		left:3%;
+		top:37.5%;
+		}
+		
+		Facebookpic{
+  border: 1px solid black;
+  background-color: lightblue;
+  padding-top: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+}
