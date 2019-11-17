@@ -1,0 +1,146 @@
+#logobanner {
+    padding-bottom: 7px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+  
+  
+  }
+  #rainforest {
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      padding-top: 5px;
+      
+  }
+  .mySlides {
+      display:none;
+      width: 100%;
+      height: 50%;
+      padding-top: 2.5px;
+      }
+          
+  ul {
+      
+    list-style-type: none;	
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#00f117;
+    font-family: helvetica;
+    font-size: 135%;
+    text-align: center;
+    box-shadow: 0px 10px 5px white;
+    z-index: 1;
+  }
+  li a {
+      float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #03c515;
+  }
+  
+  .active {
+    background-color: #03c515;
+  }
+      
+  
+  .lowerbanner {
+    margin-top: 2.5px;
+    z-index: 1;
+    height: 45px;
+    width: 100%;
+    background-color: #00f117;
+    box-shadow: 0px -10px 5px white;
+  }
+  
+  #PageHeader{
+      font-family: helvetica;
+      text-align: center;
+      
+      
+  }
+  
+  .container {
+    position: relative;
+    width: 100%;
+    
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    padding: 16px 30px;
+    border: none;
+    
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 18px #ffffff;
+    
+    
+  }
+  .container .headerText {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 500%;
+    margin: 1	%;	
+    border: none;
+    
+    border-radius: 5px;
+    text-align: center;
+    text-shadow: 2px 2px 8px  #000000;
+  }
+  
+  .container .headerName {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    -ms-transform: translate(-50%, -50%);
+    color: white;
+    font-size: 350%;
+    padding: 40	px 0px;
+    border: none;
+    
+    border-radius: 5px;
+    text-shadow: 2px 2px 8px  #000000;
+    
+  }
+  
+  
+  .container .btn:hover {
+    background-color: #03c515;
+    color: white;
+    
+  }
+  
+  p {
+    position: relative;
+      border: 3px;
+      
+      
+      
+  }
