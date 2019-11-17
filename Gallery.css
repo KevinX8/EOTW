@@ -1,8 +1,16 @@
 body {
-	background: bisque;
+	background: black;
+	text-align: center;
 }
 
 h1 { 
 color: red;
 font-size: 500%
 }
+
+h2 {
+	color: blue;
+	font-size:100%
+}
+
+
