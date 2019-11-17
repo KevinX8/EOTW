@@ -28,7 +28,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#00f117;
+    background-color:#00b389;
     font-family: helvetica;
     font-size: 135%;
     text-align: center;
@@ -58,7 +58,7 @@
     z-index: 1;
     height: 45px;
     width: 100%;
-    background-color: #00f117;
+    background-color: #00b389;
     box-shadow: 0px -10px 5px white;
   }
   
@@ -108,7 +108,7 @@
     font-size: 500%;
     margin: 1	%;	
     border: none;
-    
+    width: 100%;
     border-radius: 5px;
     text-align: center;
     text-shadow: 2px 2px 8px  #000000;
@@ -124,7 +124,7 @@
     font-size: 350%;
     padding: 40	px 0px;
     border: none;
-    
+    padding-top: 5%;
     border-radius: 5px;
     text-shadow: 2px 2px 8px  #000000;
     
@@ -140,7 +140,116 @@
   p {
     position: relative;
       border: 3px;
-      
-      
-      
-  }
+    }
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+    a {
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+color: white;
+text-decoration: none;
+
+    }
+/* Footer Styling + Columns */
+    .footer{
+   bottom: 0;
+   position: static;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 10%;
+   background-color: #007B5E  ;
+   color: white;
+   text-align: center;
+}
+.row p {
+padding: 10%;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+font-size: 120%;
+
+
+}
+.column {
+  float: left;
+  /* Should be removed. Only for demonstration */
+}
+
+.left, .right {
+  width: 25%;
+  
+}
+
+.middle1 {
+  width: 25%;
+}
+.middle2 {
+  width: 25%;
+}
+#EOTWLogo {
+height: 50%;
+width: 50%;
+
+}
+
+#FollowUsText{
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 120%;
+
+}
+/* Twitter row styling */
+    #TwitterPNG {
+      width: 10%;
+      height: 10%;
+      float: left;
+      transform: translate(200%, -20%);
+}
+.TwitterRow h3{
+  text-align: center;
+  transform: translate(-5%, 0%);
+}
+
+.TwitterRow{
+  transform: translate(7.5%, 0%);
+}
+
+/* Facebook row styling */
+#FacebookPNG {
+  width: 10%;
+  height: 10%;
+  float: left;
+  transform: translate(200%, -20%);
+}
+.FacebookRow h3{
+text-align: center;
+transform: translate(-5%, 0%);
+}
+
+.FacebookRow {
+  transform: translate(7.5%, 20%);
+}
+
+/* Instagram row styling */
+#InstagramPNG {
+  width: 10%;
+  height: 10%;
+  float: left;
+  transform: translate(200%, -20%);
+}
+.InstagramRow h3{
+text-align: center;
+transform: translate(-5%, 0%);
+}
+.InstagramRow {
+  transform: translate(7.5%, 40%);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
