@@ -45,11 +45,11 @@
   }
   
   li a:hover:not(.active) {
-    background-color: #03c515;
+    background-color: #00e6b0;
   }
   
   .active {
-    background-color: #03c515;
+    background-color: #00e6b0;
   }
       
   
@@ -136,7 +136,30 @@
     color: white;
     
   }
+.Subsection{
+  position: relative;
+}  
+#subsectionIMG{
+width: 100%;
   
+}
+#video{
+  position: absolute;
+  transform: translate(18%, 20%);
+  padding-top: 1%;
+}
+#subsectionText{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 25%);
+  z-index: 1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+ 
+  }
+
+  
+
   p {
     position: relative;
       border: 3px;
