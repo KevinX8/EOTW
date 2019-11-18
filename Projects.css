@@ -1,21 +1,14 @@
 body {
     font-family: helvetica;
-    margin-left:30%;
-    margin-right:30%;
-    margin-top:5%;
-    background-color:a1ffaa;
-}
-
-#deforestation {
-    position: absolute;
-    left: 35%;
-    top: 15%;
-    z-index: -1;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
 }
 
 h1 {
     font-size: 150%;
-    padding-left:60%;
+    width:70%;
+    padding-left:20%;
 }
 
 h2 {
@@ -24,9 +17,50 @@ h2 {
 }
 
 #odd {
-    padding-left:60%;
+    padding-left: 20%;
 }
 
 #even {
     padding-right:60%;
+}
+
+#underlay {
+    padding-top:50%;
+}
+
+#tedtalk {
+    margin-left: 12.5%;
+}
+
+#audio {
+    padding-left: 20%;
+    padding-top: 10%;
+    width: 100%;
+}
+
+#audio_description {
+    font-size: 80%;
+    padding-left: 20%;
+}
+
+#deforestation {
+    width: 65%;
+    padding-left:40%;
+}
+
+#floatright {
+    float: right;
+    width: 50%;
+    border: solid black;
+}
+
+#floatleft {
+    float: left;
+    width: 42.5%;
+    padding-top: 4%;
+}
+
+.flex-container > div {
+    width:100%;
+    border: solid black;
 }
