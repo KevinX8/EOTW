@@ -1,14 +1,24 @@
+#firstdiv{
+    width: 60%
+}
+
 body {
     font-family: helvetica;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 5%;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:5%;
+}
+
+#deforestation {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    z-index: -1;
 }
 
 h1 {
     font-size: 150%;
-    width:70%;
-    padding-left:20%;
+    padding-left:60%;
 }
 
 h2 {
@@ -17,7 +27,7 @@ h2 {
 }
 
 #odd {
-    padding-left: 20%;
+    padding-left:60%;
 }
 
 #even {
@@ -25,42 +35,12 @@ h2 {
 }
 
 #underlay {
-    padding-top:50%;
-}
-
-#tedtalk {
-    margin-left: 12.5%;
-}
-
-#audio {
-    padding-left: 20%;
-    padding-top: 10%;
-    width: 100%;
+    padding-top:5%;
 }
 
 #audio_description {
     font-size: 80%;
-    padding-left: 20%;
-}
-
-#deforestation {
-    width: 65%;
-    padding-left:40%;
-}
-
-#floatright {
-    float: right;
-    width: 50%;
-    border: solid black;
-}
-
-#floatleft {
-    float: left;
-    width: 42.5%;
-    padding-top: 4%;
-}
-
-.flex-container > div {
-    width:100%;
-    border: solid black;
+    position: absolute;
+    top: 67%;
+    z-index: 1;
 }
