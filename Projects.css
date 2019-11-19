@@ -1,46 +1,90 @@
-#firstdiv{
-    width: 60%
+html {
+    background-color: #d4ffd8;
 }
 
 body {
     font-family: helvetica;
-    margin-left:25%;
-    margin-right:25%;
-    margin-top:5%;
+    margin-left:22.5%;
+    margin-right:22.5%;
+    margin-top:2.5%;
+    background-color: white;
+    font-size: 110%;
+    padding-bottom:2.5%;
+    margin-bottom:2.5%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    border-right: 25%;
+    padding-top:5%;
+}
+  
+.flex-container > div {
+    width: 50%;
 }
 
 #deforestation {
-    position: absolute;
-    left: 30%;
-    top: 20%;
-    z-index: -1;
+    width: 70%;
+    padding-left:15%;
 }
 
-h1 {
-    font-size: 150%;
-    padding-left:60%;
+#odd{
+    padding-right: 10%;
 }
 
-h2 {
-    font-size: 150%;
-    padding-right:60%;
+h1{
+    font-size: 177.5%;
 }
 
-#odd {
-    padding-left:60%;
+#even{
+    padding-left: 10%;
+    padding-bottom: 5%;
 }
 
-#even {
-    padding-right:60%;
+h2{
+    font-size: 177.5%;
+    padding-left:10%;
+}
+
+#audio {
+    width:75%;
+    padding-left: 12.5%;
+    padding-top: 2.5%;
+}
+
+#audiodescription {
+    font-size: 80%;
+    padding-right: 10%;
 }
 
 #underlay {
-    padding-top:5%;
+    padding-left: 6.25%;
+    padding-right: 6.25%;
+    padding-top: 2.5%;
 }
 
-#audio_description {
-    font-size: 80%;
-    position: absolute;
-    top: 67%;
-    z-index: 1;
+#youtubevideo {
+    margin-left:15%;
+    width: 70%;
+    height: 45%;
+    margin-top:2.5%;
+}
+
+#energyefficiency {
+    width: 80%;
+    padding-left:10%;
+    padding-top:10%;
+}
+
+#cleanup {
+    width: 70%;
+    padding-left:15%;
+    padding-top:2.5%;
+}
+
+#recycle {
+    width: 70%;
+    padding-left:15%;
+    padding-top:5%;
 }
