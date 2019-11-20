@@ -2,15 +2,15 @@ html {
     background-color: #d4ffd8;
 }
 
-body {
+.restofbody {
     font-family: helvetica;
     margin-left:22.5%;
     margin-right:22.5%;
-    margin-top:2.5%;
     background-color: white;
     font-size: 110%;
     padding-bottom:2.5%;
-    margin-bottom:2.5%;
+    margin-top:0.6%;
+    margin-bottom:0.6%;
 }
 
 .flex-container {
@@ -87,4 +87,54 @@ h2{
     width: 70%;
     padding-left:15%;
     padding-top:5%;
+}
+
+#logobanner {
+    width: 55%;
+}
+
+#EOTWLogo {
+    height: 180%;
+    width: 35%;    
+}
+
+#link {
+    color:#00b389;
+}
+
+ul{
+    box-shadow: 0px 0px 0px;
+}
+
+#TwitterPNG {
+    width: 10%;
+    height: 50%;
+    float: left;
+    transform: translate(200%, -20%);
+}
+
+#FacebookPNG {
+    width: 10%;
+    height: 50%;
+    float: left;
+    transform: translate(200%, -20%);
+}
+
+#InstagramPNG {
+    width: 10%;
+    height: 50%;
+    float: left;
+    transform: translate(200%, -20%);
+}
+
+.right {
+    padding-bottom:10.95%;
+}
+
+.middle1 {
+    padding-bottom: 9.9%;
+}
+
+.middle2 {
+    padding-bottom: 9.9%;
 }
