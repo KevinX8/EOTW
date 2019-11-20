@@ -282,6 +282,6 @@ transform: translate(-5%, 0%);
 	flex-wrap: nowrap;
 }
 
-.flex-containertwo > div{
-	width:25%;
+.flex-containertwo = div{
+	width:33%;
 }
