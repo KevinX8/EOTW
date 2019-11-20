@@ -2,15 +2,15 @@ html {
     background-color: #d4ffd8;
 }
 
-body {
+#mainbody {
     font-family: helvetica;
     margin-left:22.5%;
     margin-right:22.5%;
-    margin-top:2.5%;
+    margin-top:-0.9%;
     background-color: white;
     font-size: 110%;
-    padding-bottom:2.5%;
-    margin-bottom:2.5%;
+    padding-bottom:7.5%;
+    margin-bottom:0.6%;
 }
 
 ol {
@@ -24,12 +24,25 @@ h2 {
 
 h1{
     text-align: center;
-    padding-top:5%;
+    padding-top:2.5%;
     font-size: 175%;
 }
 
 #twittershare{
     display: block;
-    width: 35%;
-    margin-left:30%;
+    width: 45%;
+    margin-left:45%;
+}
+
+#logobanner {
+    width: 55%;
+}
+
+#EOTWLogo {
+    height: 180%;
+    width: 35%;    
+}
+
+ul{
+    box-shadow: 0px 0px 0px;
 }
