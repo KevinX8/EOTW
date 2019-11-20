@@ -86,7 +86,7 @@
     left: 50%;
     transform: translate(-50%, -25%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #f1f1f1;
+    background-color: #007B5E;
     color: black;
     font-size: 16px;
     padding: 16px 30px;
@@ -132,7 +132,7 @@
   
   
   .container .btn:hover {
-    background-color: #03c515;
+    background-color: #00e6b0;
     color: white;
     
   }
@@ -161,8 +161,10 @@ width: 100%;
   
 
   p {
+    font-family: 'Roboto', sans-serif;
+    
     position: relative;
-      border: 3px;
+    border: 3px;
     }
 h2{
   font-family: 'Roboto', sans-serif;
