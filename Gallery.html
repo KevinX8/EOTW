@@ -4,13 +4,65 @@
 	<head>
 	<h1>Social Media & Gallery</h1>
 	<link rel="stylesheet" type="text/css" href="Gallery.css">
+	
+	
+ <body style= "background-color:#d4ffd8">
+
+
+
+ <a href="Index.html">  
+<img id="logobanner" src="Images\logo.jpg" alt="Logo">
+</a>
+
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#About Us">About Us</a></li>
+  <li><a href="#Projects">Projects</a></li>
+  <li><a href="#Gallery">Gallery</a></li>
+  <li><a href="#Stats">Stats</a></li>
+  <li><a href="#Contact">Contact</a></li>
+  <li><a href="#What You Can Do">What You Can Do</a></li>
+  
+</ul>
+
  
+<div class="container">
+<h1 class="headerText"> "Our house is on fire."</h1>
+<h1 class="headerName"> - Greta Thunberg </h1>
+<div class="w3-content w3-section" style="max-width:100%">
+  
+  <img class="mySlides" src="Images\rainforest2.jpg">
+ <img class="mySlides" src="Images\rainforestfire.jpg"> 
+  <img class="mySlides" src="Images\rainforest3.jpg">
+</div>
+
+<button class="btn"><a href="AboutUs.html">Learn More</a></button> 
+</div> 
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+</script>
+	
+<div class="lowerbanner"></div>
  
 	</head>
 		<body>
 		<p><h2>Social Media</h2></p>
 		<p>Follow us on <a href="https://www.snapchat.com/l/en-gb/">Snapchat</a>, <a href="https://www.facebook.com/">Facebook</a>, <a href="https://twitter.com/">Twitter</a> & <a href="https://www.instagram.com/">Instagram</a> for daily updates on our projects and achievements towards a cleaner planet.</p>
-		<img  src="./Images/Snapchat.png" width="35" height="35"><img  src="./Images/Facebook.png" width="35" height="35"><img  src="./Images/Twitter.png" width="35" height="35"><img  src="./Images/Instagram.png" width="35" height="35">
+		<img  src="./Images/Snapchat.png" width="35" height="35"><img  src="./Images/Facebook.png" width="35" height="35"><img  src="./Images/Twitter.png" width="35" height="35"><img  src="./Images/Instagram.jpg" width="35" height="35">
 		<br></br>
 		
 		<p>With big social media outlets such as YouTube influencing people to go green and keep the future of the world in mind.</p>
@@ -19,7 +71,68 @@
 		<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Creators started <a href="https://twitter.com/hashtag/TeamTrees?src=hash&amp;ref_src=twsrc%5Etfw">#TeamTrees</a> with goal to raise $20M to plant 20M trees by 2020. They’re more than halfway there!<br><br>On Tuesday we began matching up to $1M in donations on YouTube through the end of 2019. Have you donated yet?<br><br>Let&#39;s plant some trees! 🌲<a href="https://t.co/J9em9INyo8">https://t.co/J9em9INyo8</a> <a href="https://t.co/SKvR8sxQ3n">pic.twitter.com/SKvR8sxQ3n</a></p>&mdash; YouTube (@YouTube) <a href="https://twitter.com/YouTube/status/1190369964688957441?ref_src=twsrc%5Etfw">November 1, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>>
 		<img src="./Images/TeamTrees.png" width="500" height="500">
 		
-		
+		<div class="footer">
+  
+  <div class="row">
+    <div class="column left" style="background-color:#007B5E;">
+      <h2> &#x24B8; 2019 End Of The World </h2>
+      <img id="EOTWLogo" src="Images\logo.png" alt="logo500">
+      <p>End Of The World is a non-profit organisation that strives to protect our planet
+        from climate change. We promote an eco-friendly lifestyle by running annual events
+        that fund our various projects that help to sustain our planet. 
+        <br> <br> See more here: <a href="Projects.html">Our Projects</a>
+      </p>
+    </div>
+    <div class="column middle1" style="background-color:#007B5E;">
+      <h2>Quick Links</h2>
+      <p>
+
+       Quick Link 1
+      <br><br>Quick Link 2
+      <br><br>Quick Link 3
+      <br><br>Quick Link 4
+      <br><br>Quick Link 5 
+    </p>
+    </div> 
+    <div class="column middle2" style="background-color:#007B5E;">
+        <h2>Quick Links</h2>
+        <p>
+            Quick Link 1
+            <br><br>Quick Link 2
+            <br><br>Quick Link 3
+            <br><br>Quick Link 4
+            <br><br>Quick Link 5 
+        </p>
+      </div> 
+
+    <div class="column right" style="background-color:#007B5E ;">
+      <h2>Follow Us:</h2>
+
+      <p id="FollowUsText">We keep our social media platforms
+         updated with our latest projects and endeavours.</p>
+
+      <!-- Twitter Part -->
+      <div class="TwitterRow"
+          <a href="Twitter.com"><img id="TwitterPNG" src="Images\twitterpng.png" alt="TwitterPNG"> </a>
+          <h3><a href="Twitter.com">Twitter</a></h3>
+      </div>  
+
+      <!-- Facebook Part -->
+      <div class="FacebookRow"
+          <a href="Facebook.com"><img id="FacebookPNG" src="Images\facebookpng.png" alt="FacebookPNG"> </a>
+          <h3><a href="Facebook.com">Facebook</a></h3>
+      </div>   
+
+      <!-- Instagram Part -->
+      <div class="InstagramRow"
+          <a href="Instagram.com"><img id="InstagramPNG" src="Images\instapng.png" alt="InstagramPNG"> </a>
+          <h3><a href="Instagram.com">Instagram</a></h3>
+      </div>   
+      
+    </div>
+    
+  </div>
+</div>
 		
 		
 		</body>
