@@ -123,7 +123,7 @@ background-color:#00b389;
 font-family: helvetica;
 font-size: 135%;
 text-align: center;
-box-shadow: 0px 10px 5px white;
+box-shadow: 0px 0px 0px;
 z-index: 1;
 }
 li a {
@@ -347,3 +347,8 @@ content: "";
 display: table;
 clear: both;
 }
+
+#link {
+    color:#00b389;
+}
+
