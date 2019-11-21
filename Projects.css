@@ -90,7 +90,7 @@ h2{
 }
 
 #logobanner {
-    width: 55%;
+    width: 50%;
 }
 
 #EOTWLogo {
@@ -125,16 +125,4 @@ ul{
     height: 50%;
     float: left;
     transform: translate(200%, -20%);
-}
-
-.right {
-    padding-bottom:10.95%;
-}
-
-.middle1 {
-    padding-bottom: 9.9%;
-}
-
-.middle2 {
-    padding-bottom: 9.9%;
 }
