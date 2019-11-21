@@ -4,4 +4,8 @@
     font-size: 110%;
     padding-left: 20%;
     padding-right: 20%;
+    font-family: 'Roboto',sans-serif;
+}
+.subtext {
+    padding-bottom: 0%;
 }
