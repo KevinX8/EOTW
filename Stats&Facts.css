@@ -1,0 +1,29 @@
+.padmeme {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.stuff {
+    padding-left: 15%;
+    padding-right: 15%;
+    list-style-type: circle;	
+    background-color:#fffffe;
+    font-family: helvetica;
+    font-size: 115%;
+}
+.imagestuff {
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 25%;
+    width: 25%;
+}
+li {
+    text-align: left;    
+}
+.fixme {
+  cursor: auto;
+  color: green;
+  all: unset;
+}
+.bigboy {
+    font-size: 25px;
+}
