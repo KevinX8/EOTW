@@ -27,6 +27,12 @@ html {
 
 ol {
     list-style-type: upper-roman;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+ol > li>  p{
+    margin-right:5%;
 }
 
 h2 {
