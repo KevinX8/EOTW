@@ -2,102 +2,12 @@ html {
     background-color: #d4ffd8;
 }
 
-.restofbody {
-    font-family: helvetica;
-    margin-left:22.5%;
-    margin-right:22.5%;
-    background-color: white;
-    font-size: 110%;
-    padding-bottom:2.5%;
-    margin-top:0.6%;
-    margin-bottom:0.6%;
-}
-
-.flex-container {
-    display: flex;
-    flex-wrap: nowrap;
-    border-right: 25%;
-    padding-top:5%;
-}
-  
-.flex-container > div {
-    width: 50%;
-}
-
-#deforestation {
-    width: 70%;
-    padding-left:15%;
-}
-
-#odd{
-    padding-right: 10%;
-}
-
-h1{
-    font-size: 177.5%;
-}
-
-#even{
-    padding-left: 10%;
-    padding-bottom: 5%;
-}
-
-h3{
-    font-size: 177.5%;
-    padding-left:10%;
-}
-
-#audio {
-    width:75%;
-    padding-left: 12.5%;
-    padding-top: 2.5%;
-}
-
-#audiodescription {
-    font-size: 80%;
-    padding-right: 10%;
-}
-
-#underlay {
-    padding-left: 6.25%;
-    padding-right: 6.25%;
-    padding-top: 2.5%;
-}
-
-#youtubevideo {
-    margin-left:15%;
-    width: 70%;
-    height: 45%;
-    margin-top:2.5%;
-}
-
-#energyefficiency {
-    width: 80%;
-    padding-left:10%;
-    padding-top:10%;
-}
-
-#cleanup {
-    width: 70%;
-    padding-left:15%;
-    padding-top:2.5%;
-}
-
-#recycle {
-    width: 70%;
-    padding-left:15%;
-    padding-top:5%;
-}
-
 #logobanner {
     padding-bottom: 7px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    
-  
-  
 }
 #rainforest {
     width: 100%;
@@ -123,7 +33,7 @@ background-color:#00b389;
 font-family: helvetica;
 font-size: 135%;
 text-align: center;
-box-shadow: 0px 0px 0px;
+box-shadow: 0px 0px 0px white;
 z-index: 1;
 }
 li a {
@@ -243,6 +153,57 @@ text-decoration: none;
 
 }
 
+.flex-container{
+    display: flex;
+    flex-wrap:nowrap;
+    padding-top:5%;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    height:auto;
+}
+
+.flex-container > div {
+    width: 30%;
+    font-family: Helvetica;
+    align-content: center;
+    text-align: center;
+    height:100%;
+}
+
+.flex-container2{
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    height:auto;
+}
+
+.flex-container2 > div {
+    width: 30%;
+    font-family: Helvetica;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#image{
+    height:auto;
+}
+
+#audio{
+    width:80%;
+}
+
+#link{
+    color: #00b389;
+}
+
+#cleanup{
+    width:100%;
+}
+
 /* Footer Styling + Columns */
 .footer{
     bottom: 0;
@@ -254,6 +215,7 @@ text-decoration: none;
     background-color: #007B5E  ;
     color: white;
     text-align: center;
+    margin-top:5%;
 }
 
 .row p {
@@ -347,8 +309,3 @@ content: "";
 display: table;
 clear: both;
 }
-
-#link {
-    color:#00b389;
-}
-
