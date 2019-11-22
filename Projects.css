@@ -153,10 +153,18 @@ text-decoration: none;
 
 }
 
+h1{
+    font-family: Helvetica;
+    text-align:center;
+}
+
+#projects{
+    padding-top:2.5%;
+}
 .flex-container{
     display: flex;
     flex-wrap:nowrap;
-    padding-top:5%;
+    padding-top:2.5%;
     flex-direction:row;
     justify-content: space-evenly;
     align-items: stretch;
