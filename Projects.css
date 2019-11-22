@@ -188,6 +188,10 @@ text-decoration: none;
     vertical-align: middle;
 }
 
+#spaced{
+    padding-top:15%;
+}
+
 #image{
     height:auto;
 }
