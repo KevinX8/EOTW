@@ -1,4 +1,31 @@
 
+#title {
+	text-align: center;
+	color: #00b389;
+}
+
+#mid {
+	text-align: center;
+}
+
+#list {
+	    list-style-type: none;	
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+    font-size: 100%;
+    text-align: center;
+	
+}
+
+#list-head {
+	font-size: 150%;
+	text-align: center;
+	color: #00b389;
+	
+}
+
+
 button {background-color: #4CAF55;}
 
 		#Facebook {
@@ -46,7 +73,11 @@ button {background-color: #4CAF55;}
       padding-top: 2.5px;
       }
           
+<<<<<<< HEAD
       ul {
+=======
+#skeleton {
+>>>>>>> Contact page
       
         list-style-type: none;	
         margin: 0;
