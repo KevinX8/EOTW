@@ -277,7 +277,7 @@ width: 50%;
 }
 
 .TwitterRow{
-  transform: translate(7.5%, 0%);
+  transform: translate(0%, 0%);
 }
 
 /* Facebook row styling */
@@ -289,11 +289,11 @@ width: 50%;
 }
 .FacebookRow h3{
 text-align: center;
-transform: translate(-5%, 0%);
+transform: translate(0%, 0%);
 }
 
 .FacebookRow {
-  transform: translate(7.5%, 20%);
+  transform: translate(0%, 20%);
 }
 
 /* Instagram row styling */
@@ -302,13 +302,14 @@ transform: translate(-5%, 0%);
   height: 10%;
   float: left;
   transform: translate(200%, -20%);
+  position: relative;
 }
 .InstagramRow h3{
 text-align: center;
-transform: translate(-5%, 0%);
+transform: translate(0%, 0%);
 }
 .InstagramRow {
-  transform: translate(7.5%, 40%);
+  transform: translate(0%, 40%);
 }
 
 /* Clear floats after the columns */
