@@ -61,6 +61,10 @@ h1{
     text-align:center;
 }
 
+h2 {
+    font-family: Helvetica;
+}
+
 #projects{
     padding-top:2.5%;
 }
