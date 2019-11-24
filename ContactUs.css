@@ -21,6 +21,7 @@ body {
     font-size: 100%;
     text-align: center;
     font-size: 150%;
+    background:unset;
 	
 }
 
@@ -34,184 +35,175 @@ body {
 
 button {background-color: #4CAF55;}
 
-		#Facebook {
-		position: absolute;
-		left:3%;
-		top:32%;
-		}
-		
-		#Twitter {
-		position: absolute;
-		left:3%;
-		top:37.5%;
-		}
-		
+#Facebook {
+position: absolute;
+left:3%;
+top:32%;
+}
+
+#Twitter {
+position: absolute;
+left:3%;
+top:37.5%;
+}
 
 #logobanner {
-    padding-bottom: 7px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    
-  
-  
-  }
-  #rainforest {
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-      padding-top: 5px;
-      
-  }
-  .mySlides {
-      display:none;
-      width: 100%;
-      height: 50%;
-      padding-top: 2.5px;
-      }
-          
-  #skeleton {
-      
-    list-style-type: none;	
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:#00b389;
-    font-family: helvetica;
-    font-size: 135%;
-    text-align: center;
-    box-shadow: 0px 10px 5px white;
-    z-index: 1;
-  }
-  li a {
-      float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: #00e6b0;
-  }
-  
-  .active {
-    background-color: #00e6b0;
-  }
-      
-  
-  .lowerbanner {
-    margin-top: 2.5px;
-    z-index: 1;
-    height: 45px;
-    width: 100%;
-    background-color: #00b389;
-    box-shadow: 0px -10px 5px white;
-  }
-  
-  #PageHeader{
-      font-family: helvetica;
-      text-align: center;
-      
-      
-  }
-  
-  .container {
-    position: relative;
-    width: 100%;
-    
-  }
-  
-  .container img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .container .btn {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -25%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #f1f1f1;
-    color: black;
-    font-size: 16px;
-    padding: 16px 30px;
-    border: none;
-    
-    border-radius: 5px;
-    text-align: center;
-    box-shadow: 1px 1px 18px #ffffff;
-    
-    
-  }
-  .container .headerText {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, -75%);
-    -ms-transform: translate(-50%, -50%);
-    color: white;
-    font-size: 500%;
-    margin: 1	%;	
-    border: none;
-    width: 100%;
-    border-radius: 5px;
-    text-align: center;
-    text-shadow: 2px 2px 8px  #000000;
-  }
-  
-  .container .headerName {
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    transform: translate(-50%, 10%);
-    -ms-transform: translate(-50%, -50%);
-    color: white;
-    font-size: 350%;
-    padding: 40	px 0px;
-    border: none;
-    padding-top: 5%;
-    border-radius: 5px;
-    text-shadow: 2px 2px 8px  #000000;
-    
-  }
-  
-  
-  .container .btn:hover {
-    background-color: #03c515;
-    color: white;
-    
-  }
-  
-  p {
-    position: relative;
-      border: 3px;
-    }
-h2{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  padding-bottom: 7px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
- /*   a {
-font-family: 'Roboto', sans-serif;
-font-weight: 100;
-color: white;
-text-decoration: none;
 
-    }
+ul {
+      
+  list-style-type: none;	
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /*background-color:#00b389;*/
+  background: rgb(0,255,195);
+background: radial-gradient(circle, rgba(0,255,195,1) 0%, rgba(0,179,137,1) 100%);
+  font-family: helvetica;
+  font-size: 135%;
+  text-align: center;
+  box-shadow: 0px 10px 5px white;
+  z-index: 1;
+}
+li a {
+    float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid #ffffff;
+}
+
+
+li a:hover:not(.active) {
+  background-color: #00e6b0;
+}
+
+.active {
+  background-color: #00e6b0;
+}
+    
+
+.lowerbanner {
+  margin-top: 2.5px;
+  z-index: 1;
+  height: 45px;
+  width: 100%;
+  
+  background: rgb(0,255,195);
+background: radial-gradient(circle, rgba(0,255,195,1) 0%, rgba(0,179,137,1) 100%);
+  box-shadow: 0px -10px 5px white;
+}
+
+#PageHeader{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 82px;
+    /*background: -webkit-linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);*/
+      background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke: 0.1px black;
+      
+      
+  }
+
+.container {
+  position: relative;
+  width: 100%;
+  
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+.container .btn {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  -ms-transform: translate(-50%, -50%);
+  /*background-color: #007B5E;*/
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  color: black;
+  font-size: 24px;
+  padding: 16px 30px;
+  border: none;
+  
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 1px 1px 18px #ffffff;
+  
+  
+}
+.container .headerText {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -75%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 500%;
+  margin: 1%;	
+  border: none;
+  width: 80%;
+  border-radius: 5px;
+  text-align: center;
+  text-shadow: 2px 2px 8px  #000000;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.container .headerName {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  -ms-transform: translate(-50%, -50%);
+  color: white;
+  font-size: 350%;
+  padding: 40	px 0px;
+  border: none;
+  padding-top: 5%;
+  border-radius: 5px;
+  text-shadow: 2px 2px 8px  #000000;
+  font-family: "Roboto", sans-serif;
+  
+  
+}
+
+
+.container .btn:hover {
+  background-image: linear-gradient(120deg, #8fd3f4 0%, #84fab0 100%);
+  color: white;
+  
+}
+.Subsection{
+position: relative;
+}  
+#subsectionIMG{
+width: 100%;
+}
+
 /* Footer Styling + Columns */
-    .footer{
-   bottom: 0;
-   position: static;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   height: 10%;
-   background-color: #007B5E  ;
-   color: white;
-   text-align: center;
+.footer{
+  bottom: 0;
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 10%;
+  background-color: #007B5E  ;
+  color: white;
+  text-align: center;
 }
 .row p {
 padding: 10%;
@@ -222,20 +214,20 @@ font-size: 120%;
 
 }
 .column {
-  float: left;
-  /* Should be removed. Only for demonstration */
+ float: left;
+ /* Should be removed. Only for demonstration */
 }
 
 .left, .right {
-  width: 25%;
-  
+ width: 25%;
+ 
 }
 
 .middle1 {
-  width: 25%;
+ width: 25%;
 }
 .middle2 {
-  width: 25%;
+ width: 25%;
 }
 #EOTWLogo {
 height: 50%;
@@ -244,61 +236,74 @@ width: 50%;
 }
 
 #FollowUsText{
-  padding-left: 5%;
-  padding-right: 5%;
-  font-size: 120%;
+ padding-left: 5%;
+ padding-right: 5%;
+ font-size: 120%;
 
 }
 /* Twitter row styling */
-    #TwitterPNG {
-      width: 10%;
-      height: 10%;
-      float: left;
-      transform: translate(200%, -20%);
+   #TwitterPNG {
+     width: 10%;
+     height: 10%;
+     float: left;
+     transform: translate(200%, -20%);
 }
 .TwitterRow h3{
-  text-align: center;
-  transform: translate(-5%, 0%);
+ text-align: center;
+ transform: translate(-5%, 0%);
 }
 
 .TwitterRow{
-  transform: translate(7.5%, 0%);
+ transform: translate(0%, 0%);
 }
 
 /* Facebook row styling */
 #FacebookPNG {
-  width: 10%;
-  height: 10%;
-  float: left;
-  transform: translate(200%, -20%);
+ width: 10%;
+ height: 10%;
+ float: left;
+ transform: translate(200%, -20%);
 }
 .FacebookRow h3{
 text-align: center;
-transform: translate(-5%, 0%);
+transform: translate(0%, 0%);
 }
 
 .FacebookRow {
-  transform: translate(7.5%, 20%);
+ transform: translate(0%, 20%);
 }
 
 /* Instagram row styling */
 #InstagramPNG {
-  width: 10%;
-  height: 10%;
-  float: left;
-  transform: translate(200%, -20%);
+ width: 10%;
+ height: 10%;
+ float: left;
+ transform: translate(200%, -20%);
+ position: relative;
 }
 .InstagramRow h3{
 text-align: center;
-transform: translate(-5%, 0%);
+transform: translate(0%, 0%);
 }
 .InstagramRow {
-  transform: translate(7.5%, 40%);
+ transform: translate(0%, 40%);
 }
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+ content: "";
+ display: table;
+ clear: both;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+  
+}
+
+h2{
+  font-family:Helvetica;
 }
