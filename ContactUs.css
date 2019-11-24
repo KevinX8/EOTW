@@ -1,11 +1,16 @@
 
+body {
+  text-align: center;
+}
+
 #title {
 	text-align: center;
 	color: #00b389;
 }
 
 #mid {
-	text-align: center;
+  text-align: center;
+  font-size: 150%;
 }
 
 #list {
@@ -15,6 +20,7 @@
     font-family: helvetica;
     font-size: 100%;
     text-align: center;
+    font-size: 150%;
 	
 }
 
@@ -40,14 +46,6 @@ button {background-color: #4CAF55;}
 		top:37.5%;
 		}
 		
-		Facebookpic{
-  border: 1px solid black;
-  background-color: lightblue;
-  padding-top: 1%;
-  padding-right: 1%;
-  padding-bottom: 1%;
-  padding-left: 1%;
-}
 
 #logobanner {
     padding-bottom: 7px;
@@ -73,7 +71,7 @@ button {background-color: #4CAF55;}
       padding-top: 2.5px;
       }
           
-      ul {
+  #skeleton {
       
     list-style-type: none;	
     margin: 0;
