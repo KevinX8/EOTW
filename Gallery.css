@@ -170,7 +170,7 @@ blockquote.twitter-tweet a:focus {
     position: absolute;
     top: 25%;
     left: 50%;
-    transform: translate(-50%, 10%);
+      transform: translate(-50%, 10%);
     -ms-transform: translate(-50%, -50%);
     color: white;
     font-size: 350%;
@@ -192,17 +192,21 @@ blockquote.twitter-tweet a:focus {
   p {
     position: relative;
       border: 3px;
+      font-family: 'Roboto', sans-serif;
     }
 h2{
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
 }
-    a {
+    .footer a {
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
 color: white;
 text-decoration: none;
 
+    }
+    h3{
+      font-family: 'Roboto', sans-serif;
     }
 	
     .footer{
