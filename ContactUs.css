@@ -5,7 +5,13 @@ body {
 
 #title {
 	font-family: 'Roboto', sans-serif;
-	color: #00b389;
+    text-align: center;
+    font-size: 82px;
+    /*background: -webkit-linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);*/
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px black;  
 }
 
 #mid {
