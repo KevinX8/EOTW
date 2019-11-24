@@ -178,50 +178,51 @@ font-size: 120%;
 
 }
 /* Twitter row styling */
-    #TwitterPNG {
+#TwitterPNG {
     width: 10%;
-    height: auto;
+    height: 10%;
     float: left;
     transform: translate(200%, -20%);
 }
-.TwitterRow h4{
+.TwitterRow h3{
 text-align: center;
 transform: translate(-5%, 0%);
 }
 
 .TwitterRow{
-transform: translate(7.5%, 0%);
+transform: translate(0%, 0%);
 }
 
 /* Facebook row styling */
 #FacebookPNG {
 width: 10%;
-height: auto;
+height: 10%;
 float: left;
 transform: translate(200%, -20%);
 }
-.FacebookRow h4{
+.FacebookRow h3{
 text-align: center;
-transform: translate(-5%, 0%);
+transform: translate(0%, 0%);
 }
 
 .FacebookRow {
-transform: translate(7.5%, 20%);
+transform: translate(0%, 20%);
 }
 
 /* Instagram row styling */
 #InstagramPNG {
 width: 10%;
-height: auto;
+height: 10%;
 float: left;
 transform: translate(200%, -20%);
+position: relative;
 }
-.InstagramRow h4{
+.InstagramRow h3{
 text-align: center;
-transform: translate(-5%, 0%);
+transform: translate(0%, 0%);
 }
 .InstagramRow {
-transform: translate(7.5%, 40%);
+transform: translate(0%, 40%);
 }
 
 /* Clear floats after the columns */
