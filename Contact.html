@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-  <link rel="icon" href="Images/favicon2.png">
 	<link rel="stylesheet" type="text/css" href="ContactUs.css">
-<<<<<<< HEAD
-  <title>Contact Us</title>
-    </head>
-	<body style= "background-color: #ffffff">
-=======
 	
 	<body style= "background-color:#d4ffd8">
->>>>>>> Contact page
 
 
 
  <a href="Index.html">  
-<img id="logobanner" src="Images\logo2.jpg" alt="Logo">
+<img id="logobanner" src="Images\logo.jpg" alt="Logo">
 </a>
 
 <ul id="skeleton" >
@@ -30,10 +23,37 @@
 </ul>
 
  
+<div class="container">
+<h1 class="headerText"> "Our house is on fire."</h1>
+<h1 class="headerName"> - Greta Thunberg </h1>
+<div class="w3-content w3-section" style="max-width:100%">
+  
+  <img class="mySlides" src="Images\rainforest2.jpg">
+ <img class="mySlides" src="Images\rainforestfire.jpg"> 
+  <img class="mySlides" src="Images\rainforest3.jpg">
+</div>
 
+<button class="btn"><a href="AboutUs.html">Learn More</a></button> 
+</div> 
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+</script>
 	
-
-    
+<div class="lowerbanner"></div>
+    </head>
         <body>
 		<h1 id="title" >Contact Us</h1>
 		
@@ -64,21 +84,12 @@
         <li><b>Saturday</b>   CLOSED</li>
         <li><b>Sunday</b>    CLOSED</li>
         </ul>
-<<<<<<< HEAD
-        <h2 id="address">Address</h2>
-        <p>Green Hill</p>
-        <p>Raheen Buisness Park</p>
-        <p>Limerick</p>
-        <p>Ireland</p>
-        <button class="button" onclick="alert('You Donated One Tree! Thank you <3')">Donate a Tree!</button>
-=======
         <h1 id="list-head">Address</h1>
         <p id="list">Green Hill</p>
         <p id="list">Raheen Buisness Park</p>
         <p id="list">Limerick</p>
         <p id="list">Ireland</p>
         <button id="list" class="button" onclick="alert('You Donated One Tree! Thank you <3')">Donate a Tree!</button>
->>>>>>> Contact page
 		
 		<div class="footer">
   
@@ -96,22 +107,22 @@
       <h2>Quick Links</h2>
       <p>
 
-          <a href="AboutUs.html#groupImage">Meet The Team</a>
-         <br><br><a href="AboutUs.html#cleanBandit">Clean Bandit</a>
-         <br><br><a href="Projects.html">The Three Initiatives</a>
-         <br><br><a href="index.html#subsectionText">Our Mission</a>
-         <br><br><a href="Gallery.html#greta">Greta Thunberg</a>
-       </p>
-       </div> 
-       <div class="column middle2" style="background-color:#007B5E;">
-           <h2>Quick Links</h2>
-           <p>
-               <a href="Gallery.html#images">Gallery</a>
-               <br><br><a href="Stats&Facts.html#title">Harrowing Facts</a>
-               <br><br><a href="Stats&Facts.html#videoText">Climate Change Vs. Weather</a>
-               <br><br><a href="Contact.html#address">Where To Find Us</a>
-               <br><br><a href="WhatYouCanDo.html#sharebutton">Share Our Ethos</a>
-           </p>
+       Quick Link 1
+      <br><br>Quick Link 2
+      <br><br>Quick Link 3
+      <br><br>Quick Link 4
+      <br><br>Quick Link 5 
+    </p>
+    </div> 
+    <div class="column middle2" style="background-color:#007B5E;">
+        <h2>Quick Links</h2>
+        <p>
+            Quick Link 1
+            <br><br>Quick Link 2
+            <br><br>Quick Link 3
+            <br><br>Quick Link 4
+            <br><br>Quick Link 5 
+        </p>
       </div> 
 
     <div class="column right" style="background-color:#007B5E ;">
@@ -120,22 +131,22 @@
       <p id="FollowUsText">We keep our social media platforms
          updated with our latest projects and endeavours.</p>
 
-       <!-- Twitter Part -->
-       <div class="TwitterRow">
-          <a href="Twitter.com" target="_blank"><img id="TwitterPNG" src="Images\twitterpng.png" alt="TwitterPNG"> </a>
-          <h3><a href="Twitter.com" target="_blank">Twitter</a></h3>
+      <!-- Twitter Part -->
+      <div class="TwitterRow"
+          <a href="Twitter.com"><img id="TwitterPNG" src="Images\twitterpng.png" alt="TwitterPNG"> </a>
+          <h3><a href="Twitter.com">Twitter</a></h3>
       </div>  
 
       <!-- Facebook Part -->
-      <div class="FacebookRow">
-          <a href="Facebook.com" target="_blank"><img id="FacebookPNG" src="Images\facebookpng.png" alt="FacebookPNG"> </a>
-          <h3><a href="Facebook.com" target="_blank">Facebook</a></h3>
+      <div class="FacebookRow"
+          <a href="Facebook.com"><img id="FacebookPNG" src="Images\facebookpng.png" alt="FacebookPNG"> </a>
+          <h3><a href="Facebook.com">Facebook</a></h3>
       </div>   
 
       <!-- Instagram Part -->
-      <div class="InstagramRow">
-          <a href="Instagram.com" target="_blank"><img id="InstagramPNG" src="Images\instapng.png" alt="InstagramPNG"> </a>
-          <h3><a href="Instagram.com" target="_blank">Instagram</a></h3>
+      <div class="InstagramRow"
+          <a href="Instagram.com"><img id="InstagramPNG" src="Images\instapng.png" alt="InstagramPNG"> </a>
+          <h3><a href="Instagram.com">Instagram</a></h3>
       </div>   
       
     </div>
