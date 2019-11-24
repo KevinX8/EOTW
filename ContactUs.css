@@ -1,6 +1,7 @@
 
 body {
   text-align: center;
+  font-style: normal;
 }
 
 #title {
@@ -89,11 +90,13 @@ li a {
 
 
 li a:hover:not(.active) {
-  background-color: #00e6b0;
+  /*background-color: #00e6b0;*/
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
 }
 
 .active {
-  background-color: #00e6b0;
+    /*background-color: #00e6b0;*/
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
 }
     
 
@@ -305,12 +308,14 @@ transform: translate(0%, 0%);
 
 a {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   color: white;
   text-decoration: none;
+  font-style: normal;
   
 }
 
 h2{
   font-family:Helvetica;
+  font-style: normal;
 }
