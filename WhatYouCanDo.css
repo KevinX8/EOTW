@@ -161,6 +161,9 @@ text-decoration: none;
 
 ol {
     list-style-type: upper-roman;
+    margin:auto;
+    width:50%;
+    text-align:center;
 }
 
 h2 {
@@ -174,10 +177,22 @@ h1{
     font-size: 175%;
 }
 
+#link{
+    color: #00b389;
+    float: none;
+    text-align: unset;
+    padding:0px 0px;
+    display:unset;
+    background-color: #d4ffd8;
+}
+
+#sharebutton {
+    width: 40%;
+    margin-left:30%;
+}
+
 #twittershare{
-    display: block;
-    width: 45%;
-    margin-left:45%;
+    width: 100%;
 }
 
 .footer{
@@ -190,7 +205,7 @@ h1{
     background-color: #007B5E  ;
     color: white;
     text-align: center;
-    margin-top:5%;
+    margin-top:2.5%;
 }
 
 .row p {
