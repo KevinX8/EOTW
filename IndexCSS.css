@@ -168,8 +168,29 @@ width: 100%;
   font-weight: 800;
  
   }
-
-  
+.midSection{
+  position: relative;   
+}
+.content {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  font-size: 110%;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-family: 'Roboto',sans-serif;
+}
+.subtext {
+  padding-bottom: 0%;
+}
+  #openingParagraph{
+    padding: 10%;
+    font-size: 110%;
+   
+  }
+  #hands{
+   right: 80%;
+   
+  }
 
   p {
     font-family: 'Roboto', sans-serif;
