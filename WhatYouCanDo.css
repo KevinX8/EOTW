@@ -194,6 +194,7 @@ h1{
     padding:0px 0px;
     display:unset;
     background-color: #ffffff;
+    text-decoration: underline;
 }
 
 #sharebutton {
