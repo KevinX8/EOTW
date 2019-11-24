@@ -66,15 +66,15 @@
   #PageHeader{
       font-family: 'Roboto', sans-serif;
       text-align: center;
-      font-size: 72px;
+      font-size: 82px;
       /*background: -webkit-linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);*/
-      background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      -webkit-text-stroke: 0.1px black;
-      
-      
-  }
+        background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke: 0.1px black;
+        
+        
+    }
   
   .container {
     position: relative;
@@ -172,7 +172,7 @@ width: 100%;
   position: relative;   
 }
 .content {
-  padding-top: 2.5%;
+  padding-top: 0%;
   padding-bottom: 2.5%;
   font-size: 110%;
   padding-left: 20%;
