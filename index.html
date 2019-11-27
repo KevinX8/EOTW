@@ -6,13 +6,7 @@
 <link rel="stylesheet" type="text/css" href="IndexCSS.css">
 <title>Home</title>
 </head>    
-
-     
-
-
-
 <body style= "background-color: #ffffff;">
-
 
 
  <a href="Index.html">  
@@ -31,7 +25,6 @@
   
 </ul>
 
- 
 <div class="container">
 <h1 class="headerText"> "Our house is on fire."</h1>
 <h1 class="headerName"> - Greta Thunberg </h1>
@@ -46,9 +39,9 @@
 </div> 
 <script>
 var myIndex = 0;
-carousel();
+slideshow();
 
-function carousel() {
+function slideshow() {
   var i;
   var x = document.getElementsByClassName("mySlides");
   for (i = 0; i < x.length; i++) {
@@ -57,16 +50,13 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 5000); // Change image every 2 seconds
+  setTimeout(slideshow, 5000); 
 }
 </script>
 	
 <div class="lowerbanner"></div>
 <div class="midSection">
 <h1 id="PageHeader"> What Is End Of The World? </h1>
-
-
-
 
 <div class="content">
     <center>

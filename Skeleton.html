@@ -6,19 +6,12 @@
 <link rel="stylesheet" type="text/css" href="IndexCSS.css">
 </head>    
 
-       
-<!-- Start of header -->
-
-
 <body style= "background-color: #ffffff">
-
 
 
  <a href="Index.html">  
 <img id="logobanner" src="Images\logo2.jpg" alt="Logo">
 </a>
-
-
 <ul>
   <li><a class="active" href="#home">Home</a></li>
   <li><a href="#About Us">About Us</a></li>
@@ -30,7 +23,6 @@
   
 </ul>
 
- 
 <div class="container">
 <h1 class="headerText"> "Our house is on fire."</h1>
 <h1 class="headerName"> - Greta Thunberg </h1>
@@ -45,9 +37,9 @@
 </div> 
 <script>
 var myIndex = 0;
-carousel();
+slideshow();
 
-function carousel() {
+function slideshow() {
   var i;
   var x = document.getElementsByClassName("mySlides");
   for (i = 0; i < x.length; i++) {
@@ -56,14 +48,12 @@ function carousel() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 5000); // Change image every 2 seconds
+  setTimeout(slideshow, 5000); 
 }
 </script>
 	
 <div class="lowerbanner"></div>
-<!-- End of Header -->
 
-<!-- This is the footer -->
 <div class="footer">
   
   <div class="row">
